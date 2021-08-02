@@ -1,8 +1,10 @@
 *{
-    background-color: #303030;
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     padding: 0;
+}
+.main{
+    background-color: #303030;
 }
 
 .container {
@@ -11,6 +13,7 @@
 
 .main-left{
     display: flex;
+    background-color: #303030;
     padding: 0 20px;
     flex-direction: column;
     min-width: 65%;
@@ -18,6 +21,7 @@
 .header-img {
     display: flex;
     justify-content: flex-end;
+    background: transparent;
     padding: 20px;
 }
 .header-img img {
@@ -67,20 +71,154 @@
 
 .main-right{
     display: flex;
-    flex-direction: column;
-    background: white;
+    min-width: 30%;
+    height: 90vh;
     border-radius: 2%;
-    padding: 280px 0px;   
-    border: 10px solid white;
-    border-width: 20px 310px;
+    background-color: white;
 }
 .people{
     display: flex;
+    background: transparent;
 }
 .In-call{
     display: flex;
+    background: transparent;
     flex-direction: column;
 }
-.options{
+.person-info .logos{
     display: flex;
+    justify-content: flex-end;
+    background: transparent;
+    padding: 20px;
+    width: 3%;
+}
+.main .options{
+    display: flex;
+}
+.time{
+    font-size: 25px;
+    color: white;
+    padding: 0px 20px;
+    height: 97px;
+}
+.main-btn{
+    padding: 5px 360px;
+}
+#mic{
+    color: white;
+    margin: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 100%;
+    background:rgb(53, 53, 53);
+    border: 18px solid rgb(53, 53, 53);
+}
+#video{
+    color: red;
+    font-size: 30px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 100%;
+    background:rgb(53, 53, 53);
+    border: 18px solid rgb(53, 53, 53);
+}
+#captions{
+    font-size: 30px;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 100%;
+    background:rgb(53, 53, 53);
+    border: 17px solid rgb(53, 53, 53);
+}
+#ss{
+    color: white;
+    font-size: 26px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 100%;
+    background:rgb(53, 53, 53);
+    border: 20px solid rgb(53, 53, 53);
+}
+#options{
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 100%;
+    background:rgb(53, 53, 53);
+    border: 18px solid rgb(53, 53, 53);
+}
+#end-call{
+    color: white;
+    cursor: pointer;
+    border-radius: 100%;
+    background: red;
+    margin: 5px;
+    border: 21px solid red;
+}
+.other-btn{
+    padding: 30px 60px;
+}
+#info{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+#user{
+    font-size: 28px;
+    padding: 0px 50px;
+    color: slateblue;
+    cursor: pointer;
+}
+#comment{
+    color: white;
+    cursor: pointer;
+    font-size: 27px;
+}
+#shapes{
+    cursor: pointer;
+    font-size: 27px;
+    padding: 0px 40px;
+    color: white;
+}
+.main-right p{
+    padding: 70px;
+    background: transparent;
+    font-size: 24px;
+    font-weight: bold;
+}
+#close{
+    margin: 80px 330px;
+    font-size: 26px;
+    background: transparent;
+    cursor: pointer;
+}
+#add{
+    margin: 150px -830px;
+    font-size: 24px;
+    background: transparent;
+}
+.people p{
+    background: transparent;
+    margin: 70px 800px;
+    font-size: 18px;
+}
+.In-call p{
+    margin: 135px -1080px;
+    font-size: 20px;
+    background: transparent;
+}
+.person-info .small-pic1{
+    width: 40px;
+    position: absolute;
+    left: 1320px;
+    top: 250px;
+}
+.person-info p{
+    font-size: 17px;
+    margin: -245px -1010px;
+}
+.small-pic2{
+    margin: 10px 10px;
 }
