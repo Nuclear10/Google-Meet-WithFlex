@@ -5,6 +5,7 @@
 }
 .main{
     background-color: #303030;
+    overflow: hidden;
 }
 
 .container {
@@ -72,7 +73,7 @@
 .main-right{
     display: flex;
     min-width: 30%;
-    height: 90vh;
+    height: 88vh;
     border-radius: 2%;
     background-color: white;
 }
@@ -94,15 +95,16 @@
 }
 .main .options{
     display: flex;
+    align-items: baseline;
 }
 .time{
     font-size: 25px;
     color: white;
     padding: 0px 20px;
-    height: 97px;
+    height: 85px;
 }
 .main-btn{
-    padding: 5px 360px;
+    padding: 0px 350px;
 }
 #mic{
     color: white;
@@ -185,40 +187,108 @@
 .main-right p{
     padding: 70px;
     background: transparent;
+    color: rgb(78, 78, 78);
     font-size: 24px;
     font-weight: bold;
 }
 #close{
     margin: 80px 330px;
     font-size: 26px;
+    color: rgb(78, 78, 78);
     background: transparent;
     cursor: pointer;
 }
 #add{
     margin: 150px -830px;
     font-size: 24px;
+    cursor: pointer;
+    color: rgb(78, 78, 78);
     background: transparent;
 }
 .people p{
     background: transparent;
     margin: 70px 800px;
     font-size: 18px;
+    font-weight: normal;
 }
 .In-call p{
     margin: 135px -1080px;
     font-size: 20px;
+    font-weight: normal;
     background: transparent;
 }
 .person-info .small-pic1{
     width: 40px;
     position: absolute;
-    left: 1320px;
+    left: 1330px;
     top: 250px;
 }
 .person-info p{
-    font-size: 17px;
-    margin: -245px -1010px;
+    font-size: 20px;
+    font-weight: normal;
+    margin: -247px -1010px;
 }
 .small-pic2{
-    margin: 10px 10px;
+    margin: 0px -1007px;
+    width: 40px;
+    position: absolute;
+    top: 320px;
+}
+.person-info1 p{
+    font-size: 20px;
+    font-weight: normal;
+    margin: -180px -1010px;
+}
+.small-pic3{
+    margin: 0px -1007px;
+    width: 42px;
+    position: absolute;
+    top: 395px;
+}
+.person-info2 p{
+    font-size: 20px;
+    font-weight: normal;
+    margin: -105px -1010px;
+}
+.logo-1{
+    position: absolute;
+    width: 1%;
+    left: 1750px;
+    top: 260px;
+}
+#pin1{
+    position: absolute;
+    font-size: 20px;
+    color: rgb(78, 78, 78);
+    left: 1810px;
+    cursor: pointer;
+    top: 260px;
+}
+.logo-2{
+    position: absolute;
+    width: 1%;
+    left: 1752px;
+    top: 330px;
+}
+#options1{
+    position: absolute;
+    font-size: 20px;
+    cursor: pointer;
+    left: 1815px;
+    color: rgb(78, 78, 78);
+    top: 330px;
+}
+.logo-3{
+    position: absolute;
+    width: 1%;
+    left: 1754px;
+    top: 405px;
+}
+#options2{
+    position: absolute;
+    cursor: pointer;
+    color: rgb(78, 78, 78);
+    font-size: 20px;
+    left: 1815px;
+    top: 405px;
 }
